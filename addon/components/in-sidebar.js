@@ -2,6 +2,7 @@ import Ember from 'ember';
 import layout from '../templates/components/in-sidebar';
 
 export default Ember.Component.extend({
+  tagName: '',
   layout,
   sidebars: Ember.inject.service('ember-sidebars'),
   willRender() {
