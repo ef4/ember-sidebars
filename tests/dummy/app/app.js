@@ -16,3 +16,7 @@ App = Ember.Application.extend({
 loadInitializers(App, config.modulePrefix);
 
 export default App;
+
+if (window.location.host === 'ef4.github.io') {
+  window.location.href = 'https://ef4.github.com/ember-elsewhere';
+}

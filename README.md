@@ -1,3 +1,7 @@
+# This addon has been superceded by [ember-elsewhere](https://github.com/ef4/ember-elsewhere)
+
+Because it's really not just about sidebars, so it needed some better naming.
+
 # ember-sidebars
 
 [![NPM][npm-badge-img]][npm-badge-link]
