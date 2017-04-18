@@ -22,10 +22,11 @@
     <nav>
       {{#link-to 'index'}}First Page{{/link-to}}
       {{#link-to 'second'}}Second Page{{/link-to}}
+      {{#link-to 'second-2'}}Second-2 Page{{/link-to}}
       {{#link-to 'third'}}Third Page{{/link-to}}
     </nav>
 
-    {{outlet}}
+    {{liquid-outlet use="cross-fade"}}
   </main>
 
   <div class="right-sidebar">
